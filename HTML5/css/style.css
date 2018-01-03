@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+header{
+	margin: auto;
+}
+nav{
+	background-color: #333;
+}
+.mainnav{
+	background-color:  #333;
+    overflow: hidden;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 2%;
+}
+.mainnav li{
+	display: inline-block;
+	float: left;
+}
+.mainnav li:firstChild{
+	padding-left: 0;
+}
+.mainnav li a{
+	display: inline-block;
+	padding: 16px 20px;
+	text-decoration: none;
+	background-color: #333;
+	color: white;
+	width: 100%;
+	 
+}
+.subnav{
+	position: absolute;
+}
+.subnav li{
+	display: none;
+}
+.subnav li a{
+	padding: 12px;
+	width: 122px;
+}
+.mainnav li a:hover{
+	background-color: #111;
+}
+.mainnav li:hover .subnav li{
+	display: block;
+	clear: left;
+}
+.studies{
+	width:106px;
+}
+
+main{
+	background-color: #ffffff;
+}
+
+ 
+
+section>div>.news {
+	width: 67%;
+	float: left;
+	margin: auto;
+	padding-right: 1%;
+	padding-left: 2%;
+}
+
+section>div>.news>div>img {
+	width: 100%;
+	height: auto;
+}
+
+section>div>aside>.announ {
+	width: 	27%;
+	float: left;
+	margin: auto;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+section>div>aside>.announ>div>img {
+	width: 100%;
+}
+
+footer {
+	clear: left;
+	background-color: #333;
+	width: 	100%;
+	height: 100px;
+	padding: 5px;
+}
+
+footer>div>p {
+	color: white;
+}
+
+.tit{
+	margin: auto;
+	margin-top: 60px;
+}
+
+/*.imgl{
+	float: left;
+}
+
+header>nav{
+	float: left;
+}
+*/
+section {
+	clear: left;
+}
+
+.imgl>a>img{
+	width: 200px;
+	height: 200px;
+}
+header

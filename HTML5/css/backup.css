@@ -1,0 +1,90 @@
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	
+}
+
+nav>ul {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    list-style-type: none;
+}
+
+nav>ul>li{
+	float: left;
+}
+
+nav>ul>li>a {
+	display: inline-block;
+	padding: 16px 20px;
+	text-decoration: none;
+	background-color: #333;
+	color: white;
+}
+nav>ul>li>.subnav>li{
+	display: none;
+}
+nav .mainnav li a:hover {
+	background-color: #111;
+}
+
+.mainnav li{
+	display: inline-block;
+}
+.subnav li{
+	display: none;
+}
+.subnav{
+	position: absolute;
+}
+.mainnav li:hover .subnav li{
+	display: block;
+
+}
+
+
+section>div>.news {
+	width: 67%;
+	float: left;
+	margin: auto;
+	padding-right: 1%;
+	padding-left: 2%;
+}
+
+section>div>.news>div>img {
+	width: 100%;
+	height: auto;
+}
+
+section>div>aside>.announ {
+	width: 	27%;
+	float: left;
+	margin: auto;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+section>div>aside>.announ>div>img {
+	width: 100%;
+}
+
+footer {
+	clear: left;
+	background-color: #333;
+	width: 	100%;
+	height: 100px;
+	padding: 5px;
+}
+
+footer>div>p {
+	color: white;
+}
